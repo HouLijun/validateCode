@@ -1,6 +1,5 @@
 <?php
 //验证码类
-var_dump(dirname(__FILE__));
 class ValidateCode {
     private $charset = 'abcdefghkmnprstuvwxyzABCDEFGHKMNPRSTUVWXYZ23456789';//随机因子
     private $code;//验证码
